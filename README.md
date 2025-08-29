@@ -22,3 +22,8 @@
 ```bash
 docker-compose up -d --build
 ```
+
+🤝 About
+
+- This engine powers the Telegram-based visual novel [Private Club](https://t.me/private_club_is).
+- Created with love by [@valerizab](https://t.me/valerizab)
