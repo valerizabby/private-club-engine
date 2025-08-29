@@ -1,0 +1,68 @@
+{
+  "scene1": {
+    "scene_id": "scene1",
+    "text": "На улице влажно, уже стемнело, а ты только подходишь к Школе. Кто же знал, что она у черта на куличках?",
+    "autonext": "scene2",
+    "choices": [],
+    "background": "school-entrance.png",
+    "character": {
+      "image": "anna_neutral.png",
+      "name": "Аня",
+      "position": "center"
+    }
+  },
+  "scene2": {
+    "scene_id": "scene2",
+    "text": "Ты дергаешь дверную ручку, а она не поддается с первого раза. Наконец, ты входишь в холл.",
+    "autonext": "scene3",
+    "choices": [],
+    "background": "school-entrance.png",
+    "character": {
+      "image": "anna_neutral.png",
+      "name": "Аня",
+      "position": "center"
+    }
+  },
+  "scene3": {
+    "scene_id": "scene3",
+    "text": "Ты стоишь посреди холла – тут заметно теплее, чем снаружи. Ты чувствуешь, что на тебя устремлена пара глаз.",
+    "autonext": null,
+    "choices": [
+      {
+        "text": "Осмотреться",
+        "target": "scene3a",
+        "cost": 10,
+        "stat": "reputation"
+      },
+      {
+        "text": "Идти прямо",
+        "target": "scene3b"
+      }
+    ],
+    "background": "school-hall.png",
+    "character": {
+      "image": "anna_neutral.png",
+      "name": "Аня",
+      "position": "center"
+    }
+  },
+  "scene3a": {
+    "scene_id": "scene3a",
+    "text": "Ты видишь ярко голубые глаза прелестного незнакомца.",
+    "autonext": null,
+    "choices": [],
+    "background": "school-hall.png",
+    "character": {
+      "image": "lera.png",
+      "name": "Лера",
+      "position": "center"
+    }
+  },
+  "scene3b": {
+    "scene_id": "scene3b",
+    "text": "Ты идешь прямиком в коридор по направлению к кабинету директора.",
+    "autonext": null,
+    "choices": [],
+    "background": "school-hall.png"
+  }
+}

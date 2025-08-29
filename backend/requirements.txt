@@ -1,0 +1,12 @@
+asyncpg
+aiogram~=3.10.0
+python-decouple~=3.8
+APScheduler
+fastapi
+uvicorn
+sqlalchemy
+asyncpg
+psycopg2-binary
+python-dotenv
+bs4
+sqlalchemy-data-model-visualizer
